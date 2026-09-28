@@ -69,9 +69,6 @@ while True:
     waqi_response = requests.get(waqi_url, params=waqi_params)
     waqi_data = waqi_response.json()
 
-    print("--- Debug: WAQI Data ---")
-    print(waqi_data)
-
     if waqi_response.status_code == 200 and waqi_data.get("status") == "ok":
         aqi = waqi_data["data"]["aqi"]
         station_name = waqi_data["data"]["city"]["name"]
