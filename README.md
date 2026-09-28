@@ -25,15 +25,19 @@ API Keys Setup
 --------------
 This project requires two free API keys:
 
+
 OpenWeatherMap API Key:
 
 -Sign up at OpenWeatherMap.
 
 -Generate your free API key from your account dashboard.
 
+
+
 WAQI (World Air Quality Index) Token:
 
 -Request a free API token at WAQI API Platform.
+
 
 Configuration & Usage
 
