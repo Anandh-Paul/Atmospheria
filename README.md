@@ -28,12 +28,15 @@ This project requires two free API keys:
 OpenWeatherMap API Key:
 
 -Sign up at OpenWeatherMap.
+
 -Generate your free API key from your account dashboard.
 
 WAQI (World Air Quality Index) Token:
+
 -Request a free API token at WAQI API Platform.
 
 Configuration & Usage
+
 Open the project script (weather.py or your main Python file).
 
 Locate the key variables and replace the placeholder text with your actual tokens:
@@ -42,7 +45,7 @@ Locate the key variables and replace the placeholder text with your actual token
 
 Run the application
 ------------------
-python weather.py
+```python weather.py```
 
 Enter any city name when prompted, or enter q to exit.
 
